@@ -21,9 +21,6 @@ title_separator          : "|"
 subtitle                 : "Coding Study Blog"
 name                     : "Dunku"
 description              : "Dunku의 코딩 스터디 블로그입니다."
-<!-- 
-url                      : "https://dunkublog.github.io" 
--->
 url                      : "http://localhost:4000" 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
