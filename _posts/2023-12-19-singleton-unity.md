@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "싱글턴 패턴 with 유니티"
-categories: Unity
+categories: unity
 tag: [unity, c#]
 toc: true
 ---
@@ -32,11 +32,12 @@ toc: true
 ## 게임 매니저에 사용하기
 싱글톤 패턴은 주로 게임 매니저에 사용된다.
 게임이 종료될 때까지 살아있어야 하며, 서버와의 통신, 전역 설정 초기화, 로깅, 플레이어 진행 상황을 저장하는 등의 기능을 맡을 수 있다.
+<br>
 
 ### 예제
 #### 싱글턴 클래스 제작
 상속받으면 해당 객체를 싱글턴으로 만들어 주는 클래스를 작성한다.
-```
+```csharp
 using UnityEngine;
 
 public class Singleton <T> : MonoBehaviour where T : Component
@@ -81,7 +82,7 @@ public class Singleton <T> : MonoBehaviour where T : Component
 
 #### 게임 매니저 클래스 제작
 실제 게임 매니저로 사용할 클래스를 작성한다.
-```
+```csharp
 using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
