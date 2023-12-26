@@ -3,7 +3,6 @@ layout: single
 title:  "싱글턴 패턴 with 유니티"
 categories: unity
 tag: [unity, c#]
-toc: true
 author_profile: false
 ---
 
