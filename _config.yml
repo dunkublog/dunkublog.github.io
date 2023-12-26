@@ -20,7 +20,7 @@ title                    : "Dunku DEV"
 title_separator          : "|"
 subtitle                 : "Coding Study Blog"
 name                     : "Dunku"
-description              : "유니티, c#, html, css, javascript 등 코딩과 관련된 다양한 언어 및 엔진을 공부합니다."
+description              : "유니티, c#, html, css, 자바스크립트 등 코딩과 관련된 다양한 언어 및 엔진을 공부합니다."
 url                      : "https://dunkublog.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Dunku"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Dunku의 코딩 스터디 블로그입니다."
+  bio              : "게임 & 웹 코딩 언어와 엔진 스터디 블로그"
   location         : "South Korea"
   email            :
   links:
