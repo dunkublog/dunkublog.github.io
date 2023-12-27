@@ -60,7 +60,7 @@ author_profile: false
 
 ### 결과
   
-|<div style="width: 33.333%">제목</div>|<div style="width: 33.333%">제목</div>|<div style="width: 33.333%">제목</div>|
+|제목|제목|제목|
 |---|---|---|
 |내용|내용|내용|
 |내용|내용|내용|
