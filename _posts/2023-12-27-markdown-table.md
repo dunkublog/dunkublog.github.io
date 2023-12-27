@@ -34,13 +34,15 @@ author_profile: false
 <br>
 
 #### 결과
+<div style="width: 100%">
   
-|제목|제목|제목 :full-width|
+|제목|제목|제목|
 |---|---|---|
 |내용|내용|내용|
 |내용|내용|내용|
 |내용|내용|내용|
   
+</div>
 <br>
 <br>
 
@@ -126,7 +128,7 @@ span 태그를 사용하여 컬러를 변경할 수도 있다.
 |---|---|
 |*이탤릭체*|_이탤릭체_|
 |**볼드체**|__볼드체__|
-|<span style="color:red">컬러 변경</span>||
+|<span style="color:red">컬러 변경</span>|<span style="color:green">컬러 변경</span>|
   
 ```
 <br>
@@ -137,5 +139,5 @@ span 태그를 사용하여 컬러를 변경할 수도 있다.
 |---|---|
 |*이탤릭체*|_이탤릭체_|
 |**볼드체**|__볼드체__|
-|<span style="color:red">컬러 변경</span>||
+|<span style="color:red">컬러 변경</span>|<span style="color:green">컬러 변경</span>|
   
