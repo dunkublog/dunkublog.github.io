@@ -21,6 +21,7 @@ author_profile: false
 **NOTICE**  
 지킬(jekyll)에서 테이블이 렌더링이 되지 않으면, 테이블의 위아래로 스페이스 2칸을 포함한 개행을 시켜주어야 한다.
 {: .notice--danger}
+<br>
 
 ### 코드 예제
 ```html
