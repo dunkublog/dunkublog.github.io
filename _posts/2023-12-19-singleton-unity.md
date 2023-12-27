@@ -123,9 +123,11 @@ public class GameManager : Singleton<GameManager>
 
 테스트를 위해 Build Settings에 씬을 추가한다.
 
+
 ![싱글톤 다음 세션 버튼](https://drive.google.com/uc?export=view&id=1P4_g_lWusiYzySHJZqa-lWn4p0rEZZhE)
 
 에디터를 실행하고, '다음 세션' GUI 버튼을 클릭한다.
+
 
 ![싱글톤 확인](https://drive.google.com/uc?export=view&id=13D1WjdYofoVDkM4liV4q5CscZjF8tmsu)
 
