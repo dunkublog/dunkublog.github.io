@@ -121,7 +121,6 @@ author_profile: false
 - 이탤릭체 + 볼드체는 <code>***</code> 또는 <code>___</code> 기호로 감싼다.
 - 밑줄은 u 태그를 사용한다.
 - 컬러 변경은 span 태그에 style 속성을 사용한다.
-
 <br>
 
 ### 코드 예제
