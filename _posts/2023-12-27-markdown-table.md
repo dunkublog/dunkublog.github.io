@@ -51,7 +51,7 @@ author_profile: false
 
 ## 정렬하기
 테이블의 정렬은 <code>:</code> 기호로 설정한다.  
-헤더 셀 아래의 <code>|---|</code>에 <code>:</code> 기호를 입력하면 된다.
+헤더 셀 아래의 <code>|---|</code>에 원하는 정렬 방향으로 <code>:</code> 기호를 입력하면 된다.
 
 - <code>|:---|</code> 왼쪽에 입력하면 왼쪽 정렬
 - <code>|---:|</code> 오른쪽에 입력하면 오른쪽 정렬
