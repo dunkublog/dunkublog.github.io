@@ -56,7 +56,7 @@ author_profile: false
 - <code>|---:|</code> 오른쪽에 입력하면 오른쪽 정렬
 - <code>|:---:|</code> 양쪽에 입력하면 가운데 정렬
 
-기본값은 왼쪽 정렬이다.
+기본값은 왼쪽 정렬이다.  
 <br>
 
 ### 코드 예제
@@ -85,7 +85,7 @@ author_profile: false
 
 
 ## 셀 확장하기
-빈 셀은 자동으로 확장된다.
+빈 셀은 자동으로 확장된다.  
 <br>
 
 ### 코드 예제
@@ -120,7 +120,7 @@ author_profile: false
 - 볼드체는 <code>**</code> 또는 <code>__</code> 기호로 감싼다.
 - 이탤릭체 + 볼드체는 <code>***</code> 또는 <code>___</code> 기호로 감싼다.
 - 밑줄은 u 태그를 사용한다.
-- 컬러 변경은 span 태그에 style 속성을 사용한다.
+- 컬러 변경은 span 태그에 style 속성을 사용한다.  
 <br>
 
 ### 코드 예제
