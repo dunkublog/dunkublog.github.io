@@ -19,7 +19,7 @@ author_profile: false
 헤더 셀 아래에 <code>|---|</code>을 입력하여 테이블임을 알린다.
 <br>
 
-**! 주의사항**  
+**NOTICE**  
 지킬(jekyll)에서 테이블이 렌더링이 되지 않는 경우, '테이블의 위아래로 스페이스 2칸을 포함한 개행'을 시켜주어야 한다.
 {: .notice--danger}
 <br>
