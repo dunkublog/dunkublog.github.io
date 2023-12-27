@@ -131,7 +131,8 @@ public class GameManager : Singleton<GameManager>
 
 ![싱글톤 확인](https://drive.google.com/uc?export=view&id=13D1WjdYofoVDkM4liV4q5CscZjF8tmsu)
 
-다음 씬으로 전환하는 동안 GameManager가 오직 하나만 존재하는 것을 확인할 수 있다.
+다음 씬으로 전환하는 동안 GameManager가 오직 하나만 존재하는 것을 확인할 수 있다.  
+<br>
 
 [[참고서적] 유니티로 배우는 게임 디자인 패턴](https://search.shopping.naver.com/book/search?bookTabType=ALL&pageIndex=1&pageSize=40&query=%EC%9C%A0%EB%8B%88%ED%8B%B0%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EA%B2%8C%EC%9E%84%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4&sort=REL)
 {: .notice}
