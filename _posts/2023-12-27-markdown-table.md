@@ -140,6 +140,7 @@ author_profile: false
 일반 텍스트와 마찬가지로 셀의 내용을 강조할 수 있다.
 - 이탤릭체는 <code>*</code> 또는 <code>_</code> 기호로 감싼다.
 - 볼드체는 <code>**</code> 또는 <code>__</code> 기호로 감싼다.
+- 이탤릭체 + 볼드체는 <code>***</code> 또는 <code>___</code> 기호로 감싼다.
 - 컬러는 span 태그에 style 속성을 사용하여 변경할 수 있다.
 <br>
 
@@ -150,6 +151,7 @@ author_profile: false
 |---|---|
 |*이탤릭체*|_이탤릭체_|
 |**볼드체**|__볼드체__|
+|***이탤릭+볼드체***|___이탤릭+볼드체___|
 |<span style="color:red">컬러 변경</span>|<span style="color:green">컬러 변경</span>|
   
 ```
@@ -161,5 +163,6 @@ author_profile: false
 |---|---|
 |*이탤릭체*|_이탤릭체_|
 |**볼드체**|__볼드체__|
+|***이탤릭+볼드체***|___이탤릭+볼드체___|
 |<span style="color:red">컬러 변경</span>|<span style="color:green">컬러 변경</span>|
   
