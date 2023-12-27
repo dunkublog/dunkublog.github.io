@@ -38,7 +38,7 @@ author_profile: false
 
 
 ## 정렬하기
-테이블의 정렬은 <code>:</code> 기호로 설정한다.
+테이블의 정렬은 <code>:</code> 기호로 설정한다.  
 헤더 셀 아래의 <code>|---|</code>에 <code>:</code> 기호를 입력하면 된다.
 - <code>|:---|</code> 왼쪽에 입력하면 왼쪽 정렬
 - <code>|---:|</code> 오른쪽에 입력하면 오른쪽 정렬
@@ -93,8 +93,8 @@ author_profile: false
 
 ## 셀 강조하기
 일반 텍스트와 마찬가지로 셀의 내용을 강조할 수 있다.
-- <code>*</code> 또는 <code>_</code> 기호로 이탤릭체
-- <code>**</code> 또는 <code>__</code> 기호로 볼드체
+- 이탤릭체는 <code>*</code> 또는 <code>_</code> 기호로 감쌈
+- 볼드체는 <code>**</code> 또는 <code>__</code> 기호로 감쌈
 
 span 태그를 사용하여 컬러를 변경할 수도 있다.
 <br>
