@@ -24,7 +24,7 @@ author_profile: false
 ### 코드 예제
 ```html
   
-|제목|제목|제목 :full-width|
+|제목|제목|제목|
 |---|---|---|
 |내용|내용|내용|
 |내용|내용|내용|
@@ -34,15 +34,15 @@ author_profile: false
 <br>
 
 ### 결과
-<div style="width: 100%">
   
+<div style="width: 100%">
 |제목|제목|제목|
 |---|---|---|
 |내용|내용|내용|
 |내용|내용|내용|
 |내용|내용|내용|
-  
 </div>
+  
 <br>
 <br>
 
