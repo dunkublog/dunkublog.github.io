@@ -121,14 +121,14 @@ public class GameManager : Singleton<GameManager>
 #### 테스트
 ![싱글톤 씬 추가](https://drive.google.com/uc?export=view&id=123IR3tzpjdjvFRCCNZE3ycmibBdwah68)
 
-테스트를 위해 Build Settings에 씬을 추가한다.
+테스트를 위해 Build Settings에 씬을 추가한다.  
 
 
 ![싱글톤 다음 세션 버튼](https://drive.google.com/uc?export=view&id=1P4_g_lWusiYzySHJZqa-lWn4p0rEZZhE)
 
-에디터를 실행하고, '다음 세션' GUI 버튼을 클릭한다.
+에디터를 실행하고, '다음 세션' GUI 버튼을 클릭한다.  
 
 
 ![싱글톤 확인](https://drive.google.com/uc?export=view&id=13D1WjdYofoVDkM4liV4q5CscZjF8tmsu)
 
-다음 씬으로 전환하는 동안 GameManager가 오직 하나만 존재하는 것을 확인할 수 있다.
+다음 씬으로 전환하는 동안 GameManager가 오직 하나만 존재하는 것을 확인할 수 있다.  
