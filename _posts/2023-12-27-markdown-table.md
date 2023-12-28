@@ -10,6 +10,7 @@ author_profile: false
 마크다운으로 테이블 그리는 방법을 알아보자.  
 <br>
 <br>
+<br>
 
 
 
@@ -43,6 +44,7 @@ author_profile: false
 |내용|내용|내용|
 |내용|내용|내용|
   
+<br>
 <br>
 <br>
 
@@ -81,6 +83,7 @@ author_profile: false
   
 <br>
 <br>
+<br>
 
 
 
@@ -108,6 +111,7 @@ author_profile: false
 ||가운데 확장||
 |오른쪽 확장|||
   
+<br>
 <br>
 <br>
 
