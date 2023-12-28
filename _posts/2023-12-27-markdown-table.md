@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "마크다운 테이블 만들기"
+title:  "마크다운 테이블"
 categories: markdown
 tag: [markdown]
 author_profile: false

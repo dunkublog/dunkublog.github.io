@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "마크다운 텍스트 정리"
+title:  "마크다운 텍스트"
 categories: markdown
 tag: [markdown]
 author_profile: false
