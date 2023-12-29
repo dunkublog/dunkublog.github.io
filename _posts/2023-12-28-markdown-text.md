@@ -23,7 +23,6 @@ author_profile: false
 ### 코드 예제
 <code>#</code>와 <code>##</code>은 현재 페이지의 제목과 충돌이 발생할 수 있으므로, 예제에서 제외한다.
 {: .notice}
-<br>
 
 ```html
 ### 제목 h3
