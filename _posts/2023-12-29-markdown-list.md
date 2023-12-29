@@ -36,7 +36,7 @@ author_profile: false
 
 ### 코드 예제
 숫자를 뒤섞어 표기해도 항상 내림차순으로 정렬되는 점에 유의하자.
-{: .notice--danger}
+{: .notice}
 
 ```html
 2. 리스트 항목1
