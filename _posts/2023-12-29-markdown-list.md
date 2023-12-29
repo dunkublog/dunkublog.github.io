@@ -15,7 +15,7 @@ author_profile: false
 
 
 ## 2. 순서가 있는 목록
-앞에 숫자가 매겨진 목록은 항목 앞에 <code>1.</code>, <code>2</code>... 또는 <code>1)</code>, <code>2)</code>를 입력한다.
+앞에 숫자가 매겨진 목록은 항목 앞에 <code>1.</code> <code>2.</code>... 또는 <code>1)</code> <code>2)</code>를 입력한다.
 <br>
 
 ### 코드 예제
@@ -39,6 +39,8 @@ author_profile: false
 <br>
 
 ### 코드 예제
+숫자를 뒤섞어 표기해도 항상 내림차순으로 정렬되는 점에 유의하자.
+{: .notice--danger}
 
 ```html
 5. 리스트 항목1
@@ -46,10 +48,6 @@ author_profile: false
 1. 리스트 항목3
 10. 리스트 항목4 
 ```
-
-**NOTICE**  
-숫자를 뒤섞어 표기해도 항상 내림차순으로 정렬되는 점에 유의하자.
-{: .notice--danger}
 <br>
 
 ### 결과
@@ -86,7 +84,7 @@ author_profile: false
 
 
 ## 4. 하위 목록
-각 항목의 하위 목록은 스페이스바로 공백을 3번 입력하거나, <code>Tap</code> 키를 입력하여 구분한다.
+하위 목록은 스페이스바로 공백을 3번 입력하거나, <code>Tap</code> 키를 입력하여 구분한다.
 <br>
 
 ### 코드 예제
