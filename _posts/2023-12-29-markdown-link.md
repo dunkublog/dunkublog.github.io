@@ -47,6 +47,7 @@ author_profile: false
 
 ### 결과
 ![깃허브 로고](https://drive.google.com/uc?export=view&id=16Ku3POM7MhzZkrfzXpOQjXnXkBqFdYfJ){: width="300" height="300"}
+
 <br>
 <br>
 
@@ -101,6 +102,7 @@ https://github.com/
 
 ### 결과
 [깃허브](https://github.com)는 깃 저장소 호스팅을 지원하는 웹 서비스이다.
+
 <br>
 <br>
 
