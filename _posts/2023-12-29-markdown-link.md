@@ -98,6 +98,21 @@ https://github.com/
 <https://github.com>
 <br>
 <br>
+
+
+### 코드 예제
+새탭에서 열려면, 뒤에 '{:target="_blank"}'를 붙인다.
+{: .notice}
+
+```html
+<https://github.com>{:target="_blank"}
+```
+<br>
+
+### 결과
+<https://github.com>{:target="_blank"}
+<br>
+<br>
 <br>
 
 
