@@ -56,12 +56,12 @@ author_profile: false
 {: .notice}
 
 ```html
-![깃허브 로고](https://drive.google.com/uc?export=view&id=16Ku3POM7MhzZkrfzXpOQjXnXkBqFdYfJ){: width="200%" height="200%"}
+![깃허브 로고](https://drive.google.com/uc?export=view&id=16Ku3POM7MhzZkrfzXpOQjXnXkBqFdYfJ){: width="50%" height="50%"}
 ```
 <br>
 
 ### 결과
-![깃허브 로고](https://drive.google.com/uc?export=view&id=16Ku3POM7MhzZkrfzXpOQjXnXkBqFdYfJ){: width="200%" height="200%"}
+![깃허브 로고](https://drive.google.com/uc?export=view&id=16Ku3POM7MhzZkrfzXpOQjXnXkBqFdYfJ){: width="50%" height="50%"}
 <br>
 <br>
 <br>
