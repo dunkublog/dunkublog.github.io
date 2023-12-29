@@ -7,7 +7,7 @@ author_profile: false
 ---
 
 ## 1. 목표
-마크다운 문법으로 이미지와 링크를 추가해보자.
+마크다운 문법으로 이미지와 링크를 추가해 보자.
 <br>
 <br>
 <br>
@@ -70,7 +70,7 @@ author_profile: false
 
 ## 3-1. URL 링크
 링크할 사이트의 URL 주소나 e메일 주소를 직접 입력한다.  
-꺽쇠 기호 <code><></code>로 감싸 명시할 수도 있다.
+꺾쇠 기호 <code><></code>로 감싸 명시할 수도 있다.
 <br>
 
 ### 코드 예제
@@ -106,7 +106,7 @@ https://github.com/
 
 
 ### 코드 예제
-주소 옆에 <code>""</code>로 title(설명)을 추가할 수 있으며, 마우스 포인터를 갖다대면 타이틀을 확인할 수 있다.
+주소 옆에 <code>""</code>로 title(설명)을 추가할 수 있으며, 마우스 포인터를 갖다 대면 타이틀을 확인할 수 있다.
 {: .notice}
 
 ```html
@@ -128,10 +128,6 @@ https://github.com/
 <br>
 
 ### 코드 예제
-주소 옆에 <code>""</code>로 title(설명)을 추가할 수 있다.  
-마우스 포인터를 갖다대면, 타이틀을 확인할 수 있다.
-{: .notice}
-
 ```html
 [깃허브 홈페이지][참조 URL] 텍스트에 사용할 수 있다.  
 문장 안에서도 [참조 URL1] 사용할 수 있다.  
@@ -160,10 +156,6 @@ title(설명)을 [참조 URL2] 추가할 수 있다.
 <br>
 
 ### 코드 예제
-주소 옆에 <code>""</code>로 title(설명)을 추가할 수 있다.  
-마우스 포인터를 갖다대면, 타이틀을 확인할 수 있다.
-{: .notice}
-
 ```html
 [![깃허브 로고](https://drive.google.com/uc?export=view&id=16Ku3POM7MhzZkrfzXpOQjXnXkBqFdYfJ)](https://github.com)
 ```
