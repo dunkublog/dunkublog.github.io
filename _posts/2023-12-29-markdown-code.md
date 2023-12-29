@@ -66,7 +66,6 @@ console.log('your message2')
 <br>
 <br>
 
-
 ### 코드 예제
 <code>></code> 기호를 여러 개 입력하여 인용문의 레벨을 설정한다.
 {: .notice}
@@ -83,7 +82,6 @@ console.log('your message2')
 
 <br>
 <br>
-
 
 ### 코드 예제
 인용문 내에서는 마크다운 문법이 그대로 적용된다.
