@@ -7,7 +7,7 @@ author_profile: false
 ---
 
 ## 1. 목표
-마크다운 문법으로 목록(List)과 체크박스를 사용해보자.
+마크다운 문법으로 목록(List)과 체크박스를 만들어보자.
 <br>
 <br>
 <br>
@@ -15,7 +15,7 @@ author_profile: false
 
 
 ## 2. 순서가 있는 목록
-앞에 숫자가 매겨진 목록은 항목 앞에 <code>1.</code> <code>2.</code>...를 입력한다.
+숫자가 매겨진 목록은 항목 앞에 <code>1.</code> <code>2.</code>...를 입력한다.
 <br>
 
 ### 코드 예제
@@ -76,7 +76,7 @@ author_profile: false
 
 
 ## 4. 하위 목록
-하위 목록은 스페이스바로 공백을 3번 입력하거나, <code>Tap</code> 키를 입력하여 구분한다.
+하위 목록은 <code>space</code> 키로 공백을 3번 입력하거나, <code>Tap</code> 키를 입력하여 구분한다.
 <br>
 
 ### 코드 예제
