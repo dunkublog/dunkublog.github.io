@@ -69,48 +69,20 @@ author_profile: false
 
 
 ## 3-1. URL 링크
-링크할 사이트의 URL 주소나 e메일 주소를 직접 입력한다.
+링크할 사이트의 URL 주소나 e메일 주소를 직접 입력한다.  
+꺽쇠 기호 <code><></code>로 감싸 명시할 수도 있다.
 <br>
 
 ### 코드 예제
 ```html
 https://github.com/
+<https://github.com>
 ```
 <br>
 
 ### 결과
 https://github.com/
-
-<br>
-<br>
-
-
-### 코드 예제
-문법적으로 명시하려면, 꺽쇠 기호 <code><></code>로 감싸면 된다.
-{: .notice}
-
-```html
 <https://github.com>
-```
-<br>
-
-### 결과
-<https://github.com>
-<br>
-<br>
-
-
-### 코드 예제
-새탭에서 열려면, 뒤에 '{:target="_blank"}'를 붙인다.
-{: .notice}
-
-```html
-<https://github.com>{:target="_blank"}
-```
-<br>
-
-### 결과
-<https://github.com>{:target="_blank"}
 <br>
 <br>
 <br>
