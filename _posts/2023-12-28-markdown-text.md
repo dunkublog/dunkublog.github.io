@@ -21,8 +21,10 @@ author_profile: false
 <br>
 
 ### 코드 예제
+<code>#</code> 1개는 현재 페이지의 제목과 충돌이 발생할 수 있으므로, 예제에서 제외한다.
+{: .notice}
+
 ```html
-# 제목 h1
 ## 제목 h2
 ### 제목 h3
 #### 제목 h4
@@ -32,7 +34,6 @@ author_profile: false
 <br>
 
 ### 결과
-# 제목 h1
 ## 제목 h2
 ### 제목 h3
 #### 제목 h4
