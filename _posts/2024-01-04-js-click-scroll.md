@@ -24,7 +24,7 @@ description: 자바스크립트를 활용하여 메뉴바 요소를 클릭하면
 
 ```javascript
 1. window.scroll(x좌표, y좌표)
-2. window.scroll(options객체)
+2. window.scroll(options 객체)
 ```
 
 위의 2가지 문법 중에서 2번 문법으로 실습해 보자.
@@ -57,5 +57,6 @@ description: 자바스크립트를 활용하여 메뉴바 요소를 클릭하면
 - `contents` 변수에 실제 콘텐츠 요소들을 저장한다.
 - `topOne, topTwo, topThree` 변수에 각 콘텐츠의 윗면 좌표를 저장한다.
 - 각 네비 요소에 `onclick` 이벤트로 스크롤 함수를 작성하여 저장한다.
-- 스크롤 함수는 `window.scroll` 메서드를 사용하며, 인자 값으로 `CSS`의 `top` 속성에 콘텐츠의 윗면 좌표를 저장해둔 `topOne, topTwo, topThree` 변수를 전달한다.
-- 또 다른 인자 값으로 `behavior: 'smooth'`를 추가하면 스크롤이 부드럽게 이루어진다.
+- 스크롤 함수는 `window.scroll` 메서드를 사용한다.
+- `window.scroll` 메서드의 options 객체로 `top` 키에 이동할 위치인 `topOne, topTwo, topThree` 변수를 입력하고, `behavior` 키에 `smooth`를 입력하여 스크롤이 부드럽게 이루어지도록 한다.
+- 참고로 `behavior: 'smooth'`를 생략하면, 스크롤 연출이 보이지 않아 해당 위치로 즉각 이동한 것처럼 보이게 된다.
