@@ -28,19 +28,19 @@ author_profile: false
 
 ### 3-1. 깃허브 계정 생성
 
-[깃허브 홈페이지](https://github.com/)에 접속하여 계정을 생성한다.
+[깃허브 홈페이지](https://github.com/){:target="\_blank"}에 접속하여 계정을 생성한다.
 
 ### 3-2. 지킬 테마 적용
 
 #### 테마 선택
 
-1. [지킬 테마](https://github.com/topics/jekyll-theme) 사이트에 접속하여 원하는 테마를 선택한다.
-2. 여기서는 Star를 가장 많이 받은 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) 테마를 선택했다.
+1. [지킬 테마](https://github.com/topics/jekyll-theme){:target="\_blank"} 사이트에 접속하여 원하는 테마를 선택한다.
+2. 여기서는 Star를 가장 많이 받은 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes){:target="\_blank"} 테마를 선택했다.
    <br>
 
 #### 테마 적용
 
-1. 선택한 테마를 적용하려면, [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) 테마 우측 상단의 Fork를 클릭한다.
+1. 선택한 테마를 적용하려면, [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes){:target="\_blank"} 테마 우측 상단의 Fork를 클릭한다.
 2. Fork가 완료되면, Settings 탭을 클릭하여 설정 페이지로 넘어간다.
 3. 리파지토리의 이름을 변경해야 하는데, Repository name에 반드시 `사용자ID.github.io`로 입력한 다음 Rename 버튼을 클릭한다.
 4. 테마의 기본 설정을 하기 위해 \_config.yml 파일을 클릭한다.
