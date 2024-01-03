@@ -4,6 +4,7 @@ title: "마크다운 코드 ∙ 인용"
 categories: markdown
 tag: [markdown]
 author_profile: false
+description: 마크다운 문법으로 인라인 코드와 코드 블록을 작성하는 방법을 알아보고, 인용문을 추가하는 방법을 살펴보겠습니다.
 ---
 
 마크다운 문법으로 코드와 인용문을 넣어보자.

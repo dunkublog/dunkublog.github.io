@@ -4,6 +4,7 @@ title: "마크다운 목록 ∙ 체크박스"
 categories: markdown
 tag: [markdown]
 author_profile: false
+description: 마크다운 문법으로 순서가 있는 목록(List)과 순서가 없는 목록을 작성하는 방법에 대해 알아보고, 체크박스 만드는 방법을 살펴보겠습니다.
 ---
 
 마크다운 문법으로 목록(List)과 체크박스를 만들어보자.

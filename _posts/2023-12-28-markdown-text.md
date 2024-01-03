@@ -4,6 +4,7 @@ title: "마크다운 제목 ∙ 텍스트"
 categories: markdown
 tag: [markdown]
 author_profile: false
+description: 마크다운 문법으로 제목과 텍스트를 작성하는 방법에 대해 알아보고, 줄바꿈과 강조 표현 그리고 이스케이프 처리하는 방법을 살펴보겠습니다.
 ---
 
 마크다운 문법으로 제목과 텍스트를 작성해 보자.

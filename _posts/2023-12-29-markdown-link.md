@@ -4,6 +4,7 @@ title: "마크다운 이미지 ∙ 링크"
 categories: markdown
 tag: [markdown]
 author_profile: false
+description: 마크다운 문법으로 이미지를 삽입하고 편집하는 방법을 알아보고, 링크를 추가하는 다양한 방법을 살펴보겠습니다.
 ---
 
 마크다운 문법으로 이미지와 링크를 추가해 보자.

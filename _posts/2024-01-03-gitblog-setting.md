@@ -4,6 +4,7 @@ title: "깃허브 블로그 지킬(Jekyll) 테마로 손쉽게 만들기"
 categories: gitblog
 tag: [gitblog]
 author_profile: false
+description: 깃허브를 손쉽게 만들 수 있는 방법으로 지킬(Jekyll) 테마를 사용하는 방법에 대해 알아보겠습니다.
 ---
 
 지킬(Jekyll) 테마를 사용하여 깃허브 블로그를 10분 만에 세팅해 보자.
