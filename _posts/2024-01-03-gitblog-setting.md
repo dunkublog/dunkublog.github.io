@@ -6,7 +6,7 @@ tag: [gitblog]
 author_profile: false
 ---
 
-지킬(Jekyll) 테마를 사용하여 깃허브 블로그를 10분 만에 세팅한다.
+지킬(Jekyll) 테마를 사용하여 깃허브 블로그를 10분 만에 세팅해 보자.
 <br>
 <br>
 <br>
