@@ -42,18 +42,20 @@ author_profile: false
 
 1. 선택한 테마를 적용하려면, [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes){:target="\_blank"} 테마 우측 상단의 Fork를 클릭한다.
 2. Fork가 완료되면, Settings 탭을 클릭하여 설정 페이지로 넘어간다.
-3. 리파지토리의 이름을 변경해야 하는데, Repository name에 반드시 `사용자ID.github.io`로 입력한 다음 Rename 버튼을 클릭한다.
-4. 테마의 기본 설정을 하기 위해 \_config.yml 파일을 클릭한다.
+3. 리파지토리의 이름을 변경해야 하는데, Repository name에 반드시 `사용자ID.github.io` 형식으로 이름은 입력한 다음 Rename 버튼을 클릭한다.
+4. 테마의 url 설정을 위해 \_config.yml 파일을 클릭한다.
 5. 연필 모양의 아이콘(Edit this File)을 클릭한다.
-6. url의 주석을 `"https://사용자ID.github.io"`로 수정한 뒤, Commit changes 버튼을 클릭한다.
-7. url에 접속해 보면, 테마가 적용된 깃허브 블로그를 확인할 수 있다.
+6. 주석 처리되어 있는 url을 `"https://사용자ID.github.io"`로 수정한 뒤, Commit changes 버튼을 클릭한다.
+7. 수정한 url에 접속해 보면, 테마가 적용된 깃허브 블로그를 확인할 수 있다.
    <br>
 
-### 3-3. 포스트 발행
+### 3-3. 첫 포스트 발행
 
 1. 깃허브 블로그 리파지토리의 Add file → Create new file을 클릭한다.
-2. Name your file...에 `_posts/2024-01-03-newpost.md` 형식으로 반드시 `_posts` 경로 밑에 `날짜-포스트이름.md`으로 파일을 생성한다.
-3. 포스트는 마크다운으로 작성한다.
+2. Name your file...에 `_posts/2024-01-03-newpost.md` 형식으로 포스트용 파일을 생성한다. 반드시 `_posts` 경로 밑에 `날짜-포스트이름.md`로 파일명을 작성해야 한다.
+3. 포스트 내용은 마크다운 문법으로 작성한다.
 
-마크다운 문법은 아래의 링크를 통해 학습할 수 있다.  
+마크다운 문법은 아래의 링크를 통해 학습할 수 있다.
+<br>
+
 [▶ 마크다운 문법 스터디](https://dunkublog.github.io/categories/#markdown)
