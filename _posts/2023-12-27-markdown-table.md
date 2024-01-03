@@ -4,6 +4,7 @@ title: "마크다운 테이블"
 categories: markdown
 tag: [markdown]
 author_profile: false
+description: 마크다운 문법으로 테이블을 만드는 방법을 알아보고, 테이블의 정렬, 셀 확장, 셀 강조 방법을 살펴보겠습니다.
 ---
 
 마크다운 문법으로 테이블을 만들어보자.  
