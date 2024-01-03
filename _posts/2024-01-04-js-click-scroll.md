@@ -60,4 +60,4 @@ description: 자바스크립트를 활용하여 메뉴바 요소를 클릭하면
 - 스크롤 함수는 `window.scroll` 메서드를 사용한다.
 - `window.scroll` 메서드의 options 객체로 `top` 키에 이동할 위치인 `topOne, topTwo, topThree` 변수를 입력하고, `behavior` 키에 `smooth`를 입력하여 스크롤이 부드럽게 이루어지도록 한다.
   - Tip 1. 상하 이동이 아닌 좌우 이동인 경우에는 `top` 대신 `left` 키를 사용한다.
-  - TIP 2. `behavior: 'smooth'`를 생략하면, 스크롤 연출이 보이지 않아 해당 위치로 즉각 이동한 것처럼 보이게 된다.
+  - TIP 2. `behavior` 키에 `auto`를 입력하면, 즉각 해당 위치로 이동한다.
