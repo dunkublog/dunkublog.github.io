@@ -89,13 +89,15 @@ name: "Dunku"
 
 ### 사이트 설명 작성
 
-`description`에 사이트에 대한 간략한 설명을 작성한다.  
-`description`은 SEO 개선을 ​​위한 '메타 디스크립션'으로 사용된다.
+`description`에 사이트에 대한 간략한 설명을 작성한다.
 
 ```html
 description: "유니티, c#, html, css, 자바스크립트 등 코딩과 관련된 다양한 언어
 및 엔진을 공부합니다."
 ```
+
+`description`은 SEO 개선을 ​​위한 '메타 디스크립션'으로 사용된다.
+{: .notice}
 
 <br>
 <br>
@@ -105,9 +107,9 @@ description: "유니티, c#, html, css, 자바스크립트 등 코딩과 관련�
 `url`에 사이트의 url을 입력한다.  
 `baseurl`는 의도치않은 문제를 야기할 수 있기때문에 되도록 사용하지 않는다.
 
-간혹, 'Minimal Mistakes'가 `baseurl`가 있는 경우가 있는데, 되도록 사용하지 말자.
-{: .notice--primary}
-
 ```html
 url: "https://dunkublog.github.io"
 ```
+
+간혹, 'Minimal Mistakes'가 `baseurl`가 있는 경우가 있는데, 되도록 사용하지 말자.
+{: .notice--danger}
