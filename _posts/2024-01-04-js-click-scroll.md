@@ -8,6 +8,7 @@ description: 자바스크립트를 활용하여 메뉴바 요소를 클릭하면
 ---
 
 자바스크립트로 메뉴바의 요소를 클릭하면 브라우저의 스크롤을 통해 특정 위치로 이동하는 기능을 구현하자.
+
 <br>
 <br>
 <br>
@@ -15,6 +16,7 @@ description: 자바스크립트를 활용하여 메뉴바 요소를 클릭하면
 ## 1. 선행 학습
 
 기능을 구현하기 전에 먼저 알아두어야 할 내용을 학습하자.
+
 <br>
 
 ### window.scroll()
@@ -48,6 +50,7 @@ options는 아래의 매개변수를 포함하는 딕셔너리이다.
 ### HTML요소.offsetTop
 
 `offsetTop` 속성은 해당 요소의 윗면이 브라우저 화면 최상단에서 떨어져 있는 거리를 반환해 주는 속성이다.
+
 <br>
 <br>
 <br>
@@ -57,7 +60,7 @@ options는 아래의 매개변수를 포함하는 딕셔너리이다.
 위의 내용을 바탕으로 스크롤 기능을 구현하면 다음과 같다.
 <br>
 
-### 코드 예제
+**코드 예제**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEPQGmB" data-user="blog-dunku" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/blog-dunku/pen/ZEPQGmB">
@@ -65,10 +68,10 @@ options는 아래의 매개변수를 포함하는 딕셔너리이다.
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-<br>
+
 <br>
 
-### JavsScript 코드 설명
+**JavsScript 코드 설명**
 
 메뉴바 네비 요소의 `onclick` 이벤트에 각 콘텐츠의 윗면 좌표로 스크롤하는 메서드를 이벤트로 추가한다.
 
