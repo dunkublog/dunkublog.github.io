@@ -7,7 +7,7 @@ author_profile: false
 description: Minimal Mistakes 지킬(Jekyll) 테마에서 기본적으로 설정해야 하는 사항들을 살펴보겠습니다.
 ---
 
-`_config.yml` 파일을 수정하여 Minimal Mistakes 테마의 기본 설정을 진행해보자.
+Minimal Mistakes 테마의 기본 설정을 진행해보자.
 
 <br>
 <br>
