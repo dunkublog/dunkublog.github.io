@@ -19,8 +19,6 @@ Minimal Mistakes 테마의 기본 설정을 진행해보자.
 `air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise` 스킨을 지원하며, [스킨 미리보기](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#skin){:target="\_blank"}에서 스킨을 확인할 수 있다.  
 여기서는 `mint` 스킨을 사용하도록 한다.
 
-<br>
-
 ```html
 minimal_mistakes_skin : "mint" # "air", "aqua", "contrast", "dark", "dirt",
 "neon", "mint", "plum", "sunrise"
@@ -52,17 +50,23 @@ locale: "ko-KR"
 
 ### 사이트 이름 설정
 
-`title`에 사이트의 이름을 입력한다.  
-`title_separator`에 SEO 친화적인 페이지 제목 구분 문자로 `|`를 설정한다.  
-`subtitle`에 `title` 아래에 출력되는 짧은 태그라인을 입력한다.
+`title`에 사이트의 이름을 입력한다.
 
 ```html
 title: "Dunku DEV"
 ```
 
+<br>
+
+`title_separator`에 SEO 친화적인 페이지 제목 구분 문자로 `|`를 설정한다.
+
 ```html
 title_separator: "|"
 ```
+
+<br>
+
+`subtitle`에 `title` 아래에 출력되는 짧은 태그라인을 입력한다.
 
 ```html
 subtitle: "Coding Study Blog"
