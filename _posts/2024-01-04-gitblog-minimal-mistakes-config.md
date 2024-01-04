@@ -38,7 +38,7 @@ minimal_mistakes_skin : "mint" # "air", "aqua", "contrast", "dark", "dirt",
 ### 기본 언어 설정
 
 `locale`에 사이트에서 사용할 기본 언어를 설정한다.  
-각 나라의 국가 코드는 [국가 코드 테이블](<https://learn.microsoft.com/en-us/previous-versions/commerce-server/ee825488(v=cs.20)>){:target="\_blank"}을 참고한다.
+각 나라의 국가 코드는 [국가 코드 테이블](<https://learn.microsoft.com/en-us/previous-versions/commerce-server/ee825488(v=cs.20)>){:target="\_blank"}을 참고한다.  
 여기서는 한국의 국가 코드인 `ko-KR`를 입력한다.
 
 ```html
@@ -90,14 +90,12 @@ name: "Dunku"
 ### 사이트 설명 작성
 
 `description`에 사이트에 대한 간략한 설명을 작성한다.
+`description`은 SEO 개선을 ​​위한 '메타 디스크립션'으로 사용된다.
 
 ```html
 description: "유니티, c#, html, css, 자바스크립트 등 코딩과 관련된 다양한 언어
 및 엔진을 공부합니다."
 ```
-
-`description`은 SEO 개선을 ​​위한 '메타 디스크립션'으로 사용된다.
-{: .notice}
 
 <br>
 <br>
