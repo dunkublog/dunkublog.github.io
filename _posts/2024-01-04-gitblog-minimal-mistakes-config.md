@@ -19,6 +19,8 @@ Minimal Mistakes 테마의 기본 설정을 진행해보자.
 `air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise` 스킨을 지원하며, [스킨 미리보기](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#skin){:target="\_blank"}에서 스킨을 확인할 수 있다.  
 여기서는 `mint` 스킨을 사용하도록 한다.
 
+<br>
+
 ```html
 minimal_mistakes_skin : "mint" # "air", "aqua", "contrast", "dark", "dirt",
 "neon", "mint", "plum", "sunrise"
@@ -31,6 +33,9 @@ minimal_mistakes_skin : "mint" # "air", "aqua", "contrast", "dark", "dirt",
 ## 2. 사이트 기본 설정
 
 `# Site Settings` 그룹에서 사이트의 기본 설정을 진행한다.
+
+<br>
+<br>
 
 ### 2-1. 기본 언어 설정
 
