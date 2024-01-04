@@ -105,7 +105,7 @@ description: "유니티, c#, html, css, 자바스크립트 등 코딩과 관련�
 `url`에 사이트의 url을 입력한다.  
 `baseurl`는 의도치 않은 문제를 야기할 수 있기 때문에 되도록 사용하지 않는다.
 
-간혹, 'Minimal Mistakes'가 `baseurl`가 있는 경우가 있는데, 되도록 사용하지 말자.
+간혹, 'Minimal Mistakes'가 `baseurl`로 설정되어 있는 경우가 있는데, 되도록 사용하지 말자.
 {: .notice--danger}
 
 ```html
