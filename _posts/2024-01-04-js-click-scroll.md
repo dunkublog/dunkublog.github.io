@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[자바스크립트] 메뉴바의 요소를 클릭하여 스크롤 이동하기"
+title: "자바스크립트로 메뉴바 요소를 클릭하여 스크롤 이동하기"
 categories: javascript
 tag: [javascript]
 author_profile: false
