@@ -36,14 +36,14 @@ description: 깃허브를 손쉽게 만들 수 있는 방법으로 지킬(Jekyll
 
 ### 2-2. 지킬 테마 적용
 
-#### 테마 선택
+**테마 선택**
 
 1. [지킬 테마](https://github.com/topics/jekyll-theme){:target="\_blank"} 사이트에 접속하여 원하는 테마를 선택한다.
 2. 여기서는 Star를 가장 많이 받은 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes){:target="\_blank"} 테마를 선택했다.
 
 <br>
 
-#### 테마 적용
+**테마 적용**
 
 1. 선택한 테마를 적용하려면, [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes){:target="\_blank"} 테마 우측 상단의 Fork를 클릭한다.
 2. Fork가 완료되면, Settings 탭을 클릭하여 설정 페이지로 넘어간다.
