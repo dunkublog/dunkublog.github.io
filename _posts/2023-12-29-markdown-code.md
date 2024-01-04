@@ -23,11 +23,6 @@ description: 마크다운 문법으로 인라인 코드와 코드 블록을 작�
 ![마크다운 인라인 코드](https://drive.google.com/uc?export=view&id=13t12S-feXbS7dKLsudaC4btijzyJM2Sl)
 
 <br>
-
-**결과**
-
-문장에 인라인 코드 `console.log('your message')` 삽입.
-<br>
 <br>
 <br>
 
@@ -41,14 +36,6 @@ description: 마크다운 문법으로 인라인 코드와 코드 블록을 작�
 **코드 예제**
 
 ![마크다운 인라인 코드](https://drive.google.com/uc?export=view&id=1B93dCGSvD5yl7d-1eackGEi4kHRLdL2L)
-
-<br>
-
-**결과**
-
-```html
-console.log('your message1') console.log('your message2')
-```
 
 <br>
 <br>
