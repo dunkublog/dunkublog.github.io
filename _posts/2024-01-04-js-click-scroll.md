@@ -36,12 +36,13 @@ options는 아래의 매개변수를 포함하는 딕셔너리이다.
 - top: 스크롤할 Y축의 픽셀 수를 지정함
 - left: 스크롤할 X축의 픽셀 수를 지정함
 - behavior: 스크롤 동작을 설정함
-  - auto: 연출없이 바로 이동함
+  - auto: 연출 없이 바로 이동함 (기본값)
   - smooth: 부드럽게 스크롤함
 
 <br>
 
 위의 2가지 문법 중에서 2번 문법으로 실습해 보자.
+<br>
 <br>
 
 ### HTML요소.offsetTop
@@ -63,6 +64,7 @@ options는 아래의 매개변수를 포함하는 딕셔너리이다.
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<br>
 <br>
 
 ### JavsScript 코드 설명
