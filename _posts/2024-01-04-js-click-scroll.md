@@ -51,7 +51,8 @@ description: 자바스크립트를 활용하여 메뉴바 요소를 클릭하면
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 <br>
 
-**JavsScript 코드 설명**  
+### JavsScript 코드 설명
+
 메뉴바 네비 요소의 `onclick` 이벤트에 각 콘텐츠의 윗면 좌표로 스크롤하는 기능을 이벤트로 추가한다.
 
 1. `spans` 변수에 메뉴바의 네비 요소들을 저장한다.
