@@ -17,10 +17,11 @@ description: 유니티 엔진에서 싱글턴 패턴을 구현하는 방법에 �
 유일성을 보장하는 것
 
 - 초기화된 후, 런타임 동안 메모리에 단 하나의 인스턴스만 존재하는 것을 의미한다.
-- 자신과 같은 유형의 인스턴스 개체가 있으면 즉시 제거한다.  
-  <br>
-  <br>
-  <br>
+- 자신과 같은 유형의 인스턴스 개체가 있으면 즉시 제거한다.
+
+<br>
+<br>
+<br>
 
 ## 2. 싱글턴 패턴 장단점
 
@@ -44,7 +45,8 @@ description: 유니티 엔진에서 싱글턴 패턴을 구현하는 방법에 �
 ## 3. 게임 매니저에 사용하기
 
 싱글톤 패턴은 주로 게임 매니저에 사용된다.  
-게임이 종료될 때까지 살아있어야 하며, 서버와의 통신, 전역 설정 초기화, 로깅, 플레이어 진행 상황을 저장하는 등의 기능을 맡을 수 있다.  
+게임이 종료될 때까지 살아있어야 하며, 서버와의 통신, 전역 설정 초기화, 로깅, 플레이어 진행 상황을 저장하는 등의 기능을 맡을 수 있다.
+
 <br>
 
 ### 예제
@@ -142,17 +144,20 @@ public class GameManager : Singleton<GameManager>
 
 ![싱글톤 씬 추가](https://drive.google.com/uc?export=view&id=123IR3tzpjdjvFRCCNZE3ycmibBdwah68)
 
-테스트를 위해 Build Settings에 씬을 추가한다.  
+테스트를 위해 Build Settings에 씬을 추가한다.
+
 <br>
 
 ![싱글톤 다음 세션 버튼](https://drive.google.com/uc?export=view&id=1P4_g_lWusiYzySHJZqa-lWn4p0rEZZhE)
 
-에디터를 실행하고, '다음 세션' GUI 버튼을 클릭한다.  
+에디터를 실행하고, '다음 세션' GUI 버튼을 클릭한다.
+
 <br>
 
 ![싱글톤 확인](https://drive.google.com/uc?export=view&id=13D1WjdYofoVDkM4liV4q5CscZjF8tmsu)
 
-다음 씬으로 전환하는 동안 GameManager가 오직 하나만 존재하는 것을 확인할 수 있다.  
+다음 씬으로 전환하는 동안 GameManager가 오직 하나만 존재하는 것을 확인할 수 있다.
+
 <br>
 
 [[참고서적] 유니티로 배우는 게임 디자인 패턴](https://search.shopping.naver.com/book/search?bookTabType=ALL&pageIndex=1&pageSize=40&query=%EC%9C%A0%EB%8B%88%ED%8B%B0%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EA%B2%8C%EC%9E%84%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4&sort=REL){:target="\_blank"}
