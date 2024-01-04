@@ -52,7 +52,7 @@ description: 유니티 엔진에서 싱글턴 패턴을 구현하는 방법에 �
 
 ### 예제
 
-#### 싱글턴 클래스 제작
+**싱글턴 클래스 제작**
 
 상속받으면 해당 객체를 싱글턴으로 만들어 주는 클래스를 작성한다.
 
@@ -100,7 +100,7 @@ public class Singleton <T> : MonoBehaviour where T : Component
 
 <br>
 
-#### 게임 매니저 클래스 제작
+**게임 매니저 클래스 제작**
 
 실제 게임 매니저로 사용할 클래스를 작성한다.
 
@@ -141,7 +141,7 @@ public class GameManager : Singleton<GameManager>
 
 <br>
 
-#### 테스트
+**테스트**
 
 ![싱글톤 씬 추가](https://drive.google.com/uc?export=view&id=123IR3tzpjdjvFRCCNZE3ycmibBdwah68)
 
