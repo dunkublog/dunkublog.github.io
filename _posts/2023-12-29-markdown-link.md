@@ -92,7 +92,8 @@ width="50%" height="50%"}
 **코드 예제**
 
 ```html
-https://github.com/ <https://github.com>
+https://github.com/
+<https://github.com>
 ```
 
 <br>
@@ -156,19 +157,21 @@ https://github.com/
 **코드 예제**
 
 ```html
-[깃허브 홈페이지][참조 URL] 텍스트에 사용할 수 있다. 문장 안에서도 [참조 URL1]
-사용할 수 있다. title(설명)을 [참조 URL2] 추가할 수 있다. [참조 URL1]:
-https://github.com [참조 URL2]: https://github.com "깃 저장소 호스팅을 지원하는
-웹 서비스"
+[텍스트][참조 URL1]에 사용할 수 있다.  
+문장 안에서도 [참조 URL1]을 사용할 수 있다.  
+title(설명)을 추가한 [참조 URL2]도 사용할 수 있다.  
+
+[참조 URL1]: https://github.com
+[참조 URL2]: https://github.com "깃 저장소 호스팅을 지원하는 웹 서비스"
 ```
 
 <br>
 
 **결과**
 
-[깃허브 홈페이지][참조 URL1] 텍스트에 사용할 수 있다.  
-문장 안에서도 [참조 URL1] 사용할 수 있다.  
-title(설명)을 [참조 URL2] 추가할 수 있다.
+[텍스트][참조 URL1]에 사용할 수 있다.  
+문장 안에서도 [참조 URL1]을 사용할 수 있다.  
+title(설명)을 추가한 [참조 URL2]도 사용할 수 있다.  
 
 [참조 URL1]: https://github.com
 [참조 URL2]: https://github.com "깃 저장소 호스팅을 지원하는 웹 서비스"
@@ -185,8 +188,7 @@ title(설명)을 [참조 URL2] 추가할 수 있다.
 **코드 예제**
 
 ```html
-[![깃허브
-로고](https://drive.google.com/uc?export=view&id=16Ku3POM7MhzZkrfzXpOQjXnXkBqFdYfJ)](https://github.com)
+[![깃허브 로고](https://drive.google.com/uc?export=view&id=16Ku3POM7MhzZkrfzXpOQjXnXkBqFdYfJ)](https://github.com)
 ```
 
 <br>
