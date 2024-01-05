@@ -84,5 +84,6 @@ links:
 
 <br>
 
-그 외 Minimal Mistakes 테마를 구성하는 방법이 궁금하다면, 아래의 링크를 참고하자.  
+그 외 Minimal Mistakes 테마를 구성하는 방법이 궁금하다면, 아래의 링크를 참고하자.
+
 [▶ Minimal Mistakes 테마 만들기](https://dunkublog.github.io/tags/#minimal-mistakes%ED%85%8C%EB%A7%88)
