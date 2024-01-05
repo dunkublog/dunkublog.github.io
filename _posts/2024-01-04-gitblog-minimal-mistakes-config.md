@@ -2,7 +2,7 @@
 layout: single
 title: "깃허브 블로그 Minimal Mistakes 테마 기본 설정하기"
 categories: gitblog
-tag: [gitblog]
+tag: [gitblog, minimal-mistakes테마]
 author_profile: false
 description: Minimal Mistakes 지킬(Jekyll) 테마에서 기본적으로 설정해야 하는 사항들을 살펴보겠습니다.
 ---
@@ -110,4 +110,16 @@ description: "유니티, c#, html, css, 자바스크립트 등 코딩과 관련�
 
 ```html
 url: "https://dunkublog.github.io"
+```
+
+<br>
+<br>
+
+### 로고 이미지 추가
+
+`logo`에 로고 이미지가 저장된 경로와 파일명을 입력한다.  
+로고 이미지는 `assets/images` 폴더를 생성한 뒤, `logo.png`로 저장하였다.
+
+```html
+logo: "/assets/images/logo.png"
 ```
