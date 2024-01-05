@@ -28,7 +28,12 @@ name: "Dunku"
 
 ## 2. 아바타 이미지 추가
 
-213.
+`avatar`에 아바타 이미지가 저장된 경로와 파일명을 입력한다.  
+아바타 이미지는 `images` 폴더를 생성한 뒤, `dunku_dev_profile.png`로 저장하였다.
+
+```html
+avatar: "images/dunku_dev_profile.png"
+```
 
 <br>
 <br>
@@ -36,7 +41,7 @@ name: "Dunku"
 
 ## 3. 블로그 설명
 
-`bio`에 자신의 소개나 블로그에 대한 간략한 설명을 입력한다.
+`bio`에 자기 소개나 블로그에 대한 간략한 설명을 입력한다.
 
 ```html
 bio: "게임 ∙ 웹 코딩 언어 및 엔진 스터디"
@@ -46,9 +51,9 @@ bio: "게임 ∙ 웹 코딩 언어 및 엔진 스터디"
 <br>
 <br>
 
-## 4. 국적 설정
+## 4. 위치 설정
 
-`location`에 현재 거주 중인 국적을 입력한다.
+`location`에 현재 거주 중인 곳의 국가나 주소 등을 입력한다.
 
 ```html
 location: "South Korea"
