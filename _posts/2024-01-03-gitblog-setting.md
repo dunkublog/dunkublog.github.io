@@ -62,7 +62,7 @@ description: 깃허브를 손쉽게 만들 수 있는 방법으로 지킬(Jekyll
 - Name your file...에 `_posts/2024-01-03-newpost.md` 형식으로 포스트용 파일을 생성한다. 반드시 `_posts` 경로 밑에 `날짜-포스트이름.md`로 파일명을 작성해야 한다.
 - 포스트 내용을 작성하기 전에 상단에 아래의 코드를 입력한다.
 
-```
+```html
 ---
 layout: post
 title:  "여기에 포스트 제목 작성."
