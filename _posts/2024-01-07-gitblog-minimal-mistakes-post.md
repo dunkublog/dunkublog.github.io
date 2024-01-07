@@ -44,36 +44,42 @@ description: 미리 보기 텍스트 작성
 
 <br>
 
-#### layout
+**layout**
+
 포스트의 레이아웃 형식을 설정한다.  
 보통 `post` 또는 `single`로 설정한다.  
 레이아웃 종류는 `_layouts` 폴더에서 확인할 수 있다.
 
 <br>
 
-#### Title
+**Title**
+
 현재 포스트의 제목을 입력한다.  
 제목은 `<h1>` 태그로 자동 생성된다.  
 
 <br>
 
-#### Category
+**Category**
+
 현재 포스트가 속해있는 카테고리를 설정한다.  
 
 <br>
 
-#### tag
+**tag**
+
 현재 포스트에 태그를 붙인다.  
 배열`[]` 안에 `,`로 구분 지어서 복수의 태그를 설정할 수 있다.  
 
 <br>
 
-#### author_profile
+**author_profile**
+
 포스트에 프로필을 노출시킬 말지 설정한다. 
 
 <br>
 
-#### description
+**description**
+
 사이트의 메인 화면과 웹브라우저에 보여지는 미리 보기 텍스트를 작성한다.
 
 <br>
