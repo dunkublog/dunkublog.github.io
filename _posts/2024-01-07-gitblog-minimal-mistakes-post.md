@@ -85,8 +85,7 @@ description: 미리 보기 텍스트 작성
 포스트 내용은 마크다운 문법으로 작성한다.  
 마크다운 문법은 아래의 링크를 통해 학습할 수 있다.
 
-[▶ 마크다운 문법 스터디](https://dunkublog.github.io/categories/#markdown)
-{:target="_blank"}
+[▶ 마크다운 문법 스터디](https://dunkublog.github.io/categories/#markdown){:target="_blank"}
 
 <br>
 <br>
