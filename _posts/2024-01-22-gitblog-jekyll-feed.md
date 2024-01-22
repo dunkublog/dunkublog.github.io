@@ -37,12 +37,16 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 �
 #### feed.xml 파일 내용
 
 ```html
-<!--
 ---
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <!-- <channel> 코드 삽입 -->
+</rss>
+```
+
+```html
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
@@ -67,6 +71,4 @@ layout: null
       </item>
     {% endfor %}
   </channel>
-</rss>
--->
 ```
