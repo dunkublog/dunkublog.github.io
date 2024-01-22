@@ -32,4 +32,4 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 �
 3. 깃허브 블로그 루트 디렉터리에 feed.xml 파일을 이동시킵니다. 
 4. 각 검색 엔진에 feed.xml 파일을 등록한다.
 
-[RSS-Feed-파일내용.xml](../assets/codefiles/RSS-Feed-파일내용.xml)
+[RSS-Feed-파일내용.txt](../assets/codefiles/RSS-Feed-파일내용.txt)
