@@ -34,7 +34,7 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 sitemap을 만드는 �
 <br>
 
 
-#### feed.xml 파일 내용
+#### sitemap.xml 파일 내용
 
 {% raw %}
 ```html
