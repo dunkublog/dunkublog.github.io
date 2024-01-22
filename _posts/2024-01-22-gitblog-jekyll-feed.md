@@ -27,13 +27,9 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 �
 
 ### feed.xml 파일 만들기
 
-1. 깃허브 블로그 루트 디렉터리에 feed.xml 파일을 생성한다.
-2. feed.xml 파일에 아래의 작성하고 저장한다.
-3. 각 검색 엔진에 feed.xml 파일을 등록한다.
+1. 아래의 'RSS-Feed-파일내용.xml' 파일을 다운로드 합니다.
+2. 파일 이름은 'feed'로 수정합니다.
+3. 깃허브 블로그 루트 디렉터리에 feed.xml 파일을 이동시킵니다. 
+4. 각 검색 엔진에 feed.xml 파일을 등록한다.
 
-<br>
-
-
-#### feed.xml 파일 내용
-
-![feed 파일 내용](https://drive.google.com/uc?id=1dnyWOR-WezLAt41aHQCm5O98SqSL9unA)
+[RSS-Feed-파일내용.xml](../assets/codefiles/RSS-Feed-파일내용.xml)
