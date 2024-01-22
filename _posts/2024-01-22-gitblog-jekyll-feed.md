@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Jkeyll 깃허브 블로그에 플러그인 없이 RSS Feed 만드는 방법"
+title: "Jekyll 깃허브 블로그에 플러그인 없이 RSS Feed 만드는 방법"
 categories: jekyll
 tag: [gitblog, jekyll]
 author_profile: false
