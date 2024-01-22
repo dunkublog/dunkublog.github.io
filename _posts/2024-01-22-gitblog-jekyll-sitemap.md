@@ -8,7 +8,7 @@ description: Jekyll로 만든 깃허브 블로그에서 별도의 플러그인�
 ---
 
 Jekyll로 만든 깃허브 블로그(Github-Pages)에서 sitemap을 만드는 방법을 살펴보자.  
-웹사이트의 검색 봇이 내 글을 주기적으로 크롤링하려면 Google, Naver, Daum 검색엔진에 sitemap을 등록해야 한다.
+웹사이트의 검색 봇이 내 글을 주기적으로 크롤링 하려면 Google, Naver, Daum 검색엔진에 sitemap을 등록해야 한다.
 <br>
 <br>
 <br>
@@ -28,7 +28,7 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 sitemap을 만드는 �
 ### sitemap.xml 파일 만들기
 
 1. 깃허브 블로그 루트 디렉터리에 sitemap.xml 파일을 생성한다.
-2. sitemap.xml 파일에 아래의 작성하고 저장한다.
+2. sitemap.xml 파일에 아래의 코드를 붙여넣고 저장한다.
 3. 각 검색 엔진에 sitemap.xml 파일을 등록한다.
 
 <br>
