@@ -27,9 +27,44 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 �
 
 ### feed.xml 파일 만들기
 
-1. 아래의 'RSS-Feed-파일내용.xml' 파일을 다운로드 합니다.
-2. 파일 이름은 'feed'로 수정합니다.
-3. 깃허브 블로그 루트 디렉터리에 feed.xml 파일을 이동시킵니다. 
-4. 각 검색 엔진에 feed.xml 파일을 등록한다.
+1. 깃허브 블로그 루트 디렉터리에 feed.xml 파일을 생성한다.
+2. feed.xml 파일에 아래의 작성하고 저장한다.
+3. 각 검색 엔진에 feed.xml 파일을 등록한다.
 
-[RSS-Feed-파일내용.txt](../assets/codefiles/RSS-Feed-파일내용.txt)
+<br>
+
+
+#### feed.xml 파일 내용
+
+```html
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:30 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
+```
