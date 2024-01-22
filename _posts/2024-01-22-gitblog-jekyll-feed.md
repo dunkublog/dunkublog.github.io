@@ -36,7 +36,8 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 �
 
 #### feed.xml 파일 내용
 
-```html
+<pre>
+<code>
 ---
 layout: null
 ---
@@ -67,4 +68,5 @@ layout: null
     {% endfor %}
   </channel>
 </rss>
-```
+</code>
+</pre>
