@@ -50,6 +50,9 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+```
+
+```
     {% for post in site.posts limit:30 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
