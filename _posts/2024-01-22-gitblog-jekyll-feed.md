@@ -36,6 +36,7 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 �
 
 #### feed.xml 파일 내용
 
+{% raw %}
 ```html
 ---
 layout: null
@@ -68,3 +69,4 @@ layout: null
   </channel>
 </rss>
 ```
+{% endraw %}
