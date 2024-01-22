@@ -36,7 +36,7 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 �
 
 #### feed.xml 파일 내용
 
-```
+<code>
 ---
 layout: null
 ---
@@ -50,9 +50,6 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-```
-
-```
     {% for post in site.posts limit:30 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
@@ -70,4 +67,4 @@ layout: null
     {% endfor %}
   </channel>
 </rss>
-```
+</code>
