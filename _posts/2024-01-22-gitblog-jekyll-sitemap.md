@@ -71,4 +71,4 @@ layout: null
 ```
 {% endraw %}
 
-참고 자료: [Jekyll 코드샘플 사이트](https://jekyllcodex.org/without-plugin/sitemap/)
+참고 자료: [Jekyll 코드샘플 사이트](https://jekyllcodex.org/without-plugin/sitemap/){:target="_blank"}
