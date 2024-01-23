@@ -27,12 +27,7 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 �
 
 ### feed.xml 파일 만들기
 
-1. 깃허브 블로그 루트 디렉터리에 feed.xml 파일을 생성한다.
-2. feed.xml 파일에 아래의 코드를 붙여넣고 저장한다.
-3. 각 검색 엔진에 feed.xml 파일을 등록한다.
-
-<br>
-
+깃허브 블로그 루트 디렉터리에 feed.xml 파일을 생성한 다음, feed.xml 파일에 아래의 코드를 붙여넣고 저장한다.
 
 #### feed.xml 파일 내용
 
@@ -46,12 +41,12 @@ layout: null
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}</link>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:30 %}
+    {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
@@ -68,5 +63,13 @@ layout: null
     {% endfor %}
   </channel>
 </rss>
+```
+{% endraw %}
+
+`head` 부분에 다음 줄을 추가하고, 각 검색 엔진에 feed.xml 파일을 등록한다.
+
+{% raw %}
+```html
+<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 ```
 {% endraw %}
