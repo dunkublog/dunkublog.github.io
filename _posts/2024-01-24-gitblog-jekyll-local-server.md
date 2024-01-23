@@ -31,19 +31,37 @@ Jekyll로 깃허브 블로그를 만드는 과정에서 로컬에서 작업 내�
 
 <br>
 
-#### 3. Jekyll 설치하기
-
-커맨드 창에 다음과 같이 입력한다.
+커맨드 창을 열고, `ruby -v` 명령어를 입력하면 Ruby가 제대로 설치되었는지 확인할 수 있다.
 
 ```html
-gem install jekyll bundler
+c:\>ruby -v
+ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x64-mingw-ucrt]
+```
+
+<br>
+
+#### 3. Jekyll 설치하기
+
+커맨드 창에 `gem install jekyll bundler` 명령어를 입력한다.
+
+```html
+c:\>gem install jekyll bundler
+```
+
+<br>
+
+`jekyll -v` 명령어로 Jekyll이 제대로 설치되었는지 확인할 수 있다. 
+
+```html
+c:\>jekyll -v
+jekyll 4.3.3
 ```
 
 <br>
 
 #### 4. 로컬에 띄우기
 
-커맨드 창을 열고, 작업 중인 지킬 블로그의 로컬 경로로 이동한다.  
+커맨드 창에 작업 중인 지킬 블로그의 로컬 경로로 이동한다.  
 참고로, 나의 경우에는 F 드라이버에 `GitBlog\testblog` 폴더가 작업 중인 지킬 블로그의 로컬 경로이다.
 
 ```html
