@@ -66,6 +66,8 @@ layout: null
 ```
 {% endraw %}
 
+<br>
+
 `head` 부분에 다음 줄을 추가하고, 각 검색 엔진에 feed.xml 파일을 등록한다.
 
 {% raw %}
@@ -73,7 +75,5 @@ layout: null
 <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 ```
 {% endraw %}
-
-<br>
 
 참고 자료: [Jekyll 코드샘플 사이트](https://jekyllcodex.org/without-plugin/rss-feed/)

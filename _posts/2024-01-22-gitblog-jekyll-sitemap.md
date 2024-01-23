@@ -27,9 +27,7 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 sitemap을 만드는 �
 
 ### sitemap.xml 파일 만들기
 
-1. 깃허브 블로그 루트 디렉터리에 sitemap.xml 파일을 생성한다.
-2. sitemap.xml 파일에 아래의 코드를 붙여넣고 저장한다.
-3. 각 검색 엔진에 sitemap.xml 파일을 등록한다.
+깃허브 블로그 루트 디렉터리에 sitemap.xml 파일을 생성한 다음, sitemap.xml 파일에 아래의 코드를 붙여넣고 저장한다.
 
 <br>
 
@@ -43,33 +41,34 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
-
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
-
-    </url>
+  {% for page in site.pages %}
+  {% if page.url contains '.xml' %}{% else %}
+      <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  {% endif %}
+  {% endfor %}
+  {% for page in site.posts %}
+      <url>
+        <loc>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
   {% endfor %}
 </urlset>
 ```
 {% endraw %}
 
 <br>
+
+`head` 부분에 다음 줄을 추가하고, 각 검색 엔진에 sitemap.xml 파일을 등록한다.
+
+{% raw %}
+```html
+<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+```
+{% endraw %}
 
 참고 자료: [Jekyll 코드샘플 사이트](https://jekyllcodex.org/without-plugin/sitemap/)
