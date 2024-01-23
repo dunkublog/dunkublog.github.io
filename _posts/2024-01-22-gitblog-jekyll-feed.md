@@ -10,6 +10,7 @@ description: Jekyll로 만든 깃허브 블로그에서 별도의 플러그인�
 Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 방법을 살펴보자.
 
 웹사이트에서 내 글이 검색될 확률을 높이기 위하여 Google, Naver, Daum 검색엔진에 RSS를 등록해야 한다.
+
 <br>
 <br>
 <br>
