@@ -73,3 +73,7 @@ layout: null
 <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 ```
 {% endraw %}
+
+<br>
+
+참고 자료: [Jekyll 코드샘플 사이트](https://jekyllcodex.org/without-plugin/rss-feed/)
