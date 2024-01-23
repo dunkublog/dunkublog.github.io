@@ -75,7 +75,7 @@ F:\GitBlog\testblog>
 <br>
 
 커맨드 창에 `jekyll serve` 명령어를 입력한다.  
-위의 명령어가 실행되지 않으면, `bundle exec jekyll serve` 명령어를 시도해 보자.
+해당 명령어가 실행되지 않으면, `bundle exec jekyll serve` 명령어를 시도해 보자.
 
 ```html
 F:\GitBlog\testblog>jekyll serve
