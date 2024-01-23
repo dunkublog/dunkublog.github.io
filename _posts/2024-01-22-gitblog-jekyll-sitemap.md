@@ -67,7 +67,7 @@ layout: null
 
 {% raw %}
 ```html
-<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 ```
 {% endraw %}
 
