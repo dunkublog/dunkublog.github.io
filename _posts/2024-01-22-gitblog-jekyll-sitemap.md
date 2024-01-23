@@ -7,7 +7,8 @@ author_profile: false
 description: Jekyll로 만든 깃허브 블로그에서 별도의 플러그인을 사용하지 않고 Sitemap을 만드는 방법을 살펴보겠습니다.
 ---
 
-Jekyll로 만든 깃허브 블로그(Github-Pages)에서 sitemap을 만드는 방법을 살펴보자.  
+Jekyll로 만든 깃허브 블로그(Github-Pages)에서 sitemap을 만드는 방법을 살펴보자.
+
 웹사이트의 검색 봇이 내 글을 주기적으로 크롤링 하려면 Google, Naver, Daum 검색엔진에 sitemap을 등록해야 한다.
 <br>
 <br>
