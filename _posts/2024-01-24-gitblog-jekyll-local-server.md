@@ -29,6 +29,8 @@ Jekyll로 깃허브 블로그를 만드는 과정에서 로컬에서 작업 내�
 
 [Ruby for Windows](https://rubyinstaller.org/){:target="_blank"}를 설치한다.
 
+<br>
+
 #### 3. Jekyll 설치하기
 
 커맨드 창에 다음과 같이 입력한다.
@@ -36,6 +38,8 @@ Jekyll로 깃허브 블로그를 만드는 과정에서 로컬에서 작업 내�
 ```html
 gem install jekyll bundler
 ```
+
+<br>
 
 #### 4. 로컬에 띄우기
 
