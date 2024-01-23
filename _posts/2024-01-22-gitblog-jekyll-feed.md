@@ -19,7 +19,7 @@ Jekyll로 만든 깃허브 블로그(Github-Pages)에서 RSS Feed를 만드는 �
 
 ## RSS Feed 만드는 방법
 
-깃허브 블로그(Github-Pages)에서는 플러그인을 사용할 수가 없기 때문에 Jekyll plgin-in을 사용하지 않고 feed.xml을 따로 만들어야 한다.
+깃허브 블로그(Github-Pages)에서는 플러그인이 작동하지 않는 경우가 종종 발생하기 때문에, Jekyll plgin-in을 사용하지 않고 feed.xml을 직접 만들어 사용하는 것이 나을 수 있다.
 
 <br>
 
