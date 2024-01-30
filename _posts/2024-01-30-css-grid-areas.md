@@ -46,8 +46,9 @@ Grid는 아이템을 가로축과 세로축의 2차원적으로 배치할 수 �
 <br>
 
 grid
+
 | grid cell | grid cell | grid cell |
-|    ---    |    ---    |    ---    |
+| ---       | ---       | ---       |
 | grid cell | grid cell | grid cell |
 | grid cell | grid cell | grid cell |
 
@@ -74,13 +75,13 @@ grid
 
 <br>
 
-**grid-areas**
+**• grid-areas**
 
 강력한 그리드 방식으로, 템플릿 영역에 이름을 지정하여 아이템을 배치할 수 있다.
 
 <br>
 
-**grid-gap**
+**• grid-gap**
 
 그리드 셀 사이의 간격을 지정할 수 있다. `grid-column-gap` 또는 `grid-row-gap`을 사용하면, 행과 열에 개별적으로 간격을 줄 수 있다.
 
@@ -95,7 +96,7 @@ grid
 
 <br>
 
-**grid-area**
+**• grid-area**
 
 지정해둔 템플릿 영역 이름을 통해 어떤 영역에 보일 것인지 지정할 수 있다.
 
