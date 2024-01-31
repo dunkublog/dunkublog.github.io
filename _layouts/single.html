@@ -46,11 +46,8 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-        {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
 
-      <!-- Ads 본문 상 -->
+        <!-- Ads 본문 상 -->
     <div class="initial-content">
       <div class="ads-post-top">
         <ins class="adsbygoogle"
@@ -63,6 +60,10 @@ layout: default
               (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
       </div>
+
+        {{ content }}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
