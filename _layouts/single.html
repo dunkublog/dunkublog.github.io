@@ -75,6 +75,20 @@ layout: default
         </div>
 
         {{ content }}
+
+        <!-- Ads 본문 하 -->
+        <div class="ads-post-top">
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-2096118284502719"
+              data-ad-slot="2802020015"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
