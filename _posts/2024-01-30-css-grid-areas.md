@@ -7,6 +7,20 @@ author_profile: false
 description: 아이템을 자유자재로 배치할 수 있는 CSS 레이아웃인 Flex와 Grid의 차이를 알아보고, Grid Areas로 레이아웃을 구성하는 방법을 살펴보겠습니다.
 ---
 
+<!-- Ads 본문 상 -->
+<div class="initial-content">
+  <div class="ads-post-top">
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-2096118284502719"
+      data-ad-slot="9927563199"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
 Grid Areas로 레이아웃을 구성하는 방법을 알아보자.
 
 <br>
