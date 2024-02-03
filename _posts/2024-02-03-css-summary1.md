@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "CSS 요점 정리 I (적용 방법, 선택자, 폰트, 텍스트, 배경)"
+title: "CSS 요점 정리 I : 적용 방법, 선택자, 폰트, 텍스트, 배경"
 categories: css
 tag: [css]
 author_profile: false
