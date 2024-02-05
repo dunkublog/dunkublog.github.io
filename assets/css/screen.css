@@ -18,5 +18,6 @@
 
 .ads-sidebar
 {
+  display: none;
   height: 360px;
 }
