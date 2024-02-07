@@ -20,7 +20,7 @@
   height: 600px;
 }
 
-nav .toc
+.sidebar__right .toc
 {
-  display: none !important;
+  display: none;
 }
