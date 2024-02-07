@@ -22,5 +22,5 @@
 
 nav .toc
 {
-  display: none;
+  display: none !important;
 }
