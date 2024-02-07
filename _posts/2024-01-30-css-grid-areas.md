@@ -4,7 +4,6 @@ title: "Grid Areas로 CSS 레이아웃 구성하기"
 categories: css
 tag: [css]
 author_profile: false
-toc: false
 description: 아이템을 자유자재로 배치할 수 있는 CSS 레이아웃인 Flex와 Grid의 차이를 알아보고, Grid Areas로 레이아웃을 구성하는 방법을 살펴보겠습니다.
 ---
 
