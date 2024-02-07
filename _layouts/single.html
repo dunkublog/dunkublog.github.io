@@ -38,7 +38,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content e-content" itemprop="text">
-        <aside class="sidebar__right">
+        <aside class="sidebar__right sticky">
           <!-- Ads 사이드 -->
           <div class="ads-sidebar">
             <ins class="adsbygoogle"
@@ -52,7 +52,7 @@ layout: default
             </script>
           </div>
         </aside>
-        
+
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
